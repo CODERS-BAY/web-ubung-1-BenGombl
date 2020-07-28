@@ -28,8 +28,10 @@ nav a{
     color: white;
     text-decoration: none;
     font-size: 2rem;
+    font-family: "Verdana";
+    font-weight: bold;
     padding: 1rem;
-    font-family: tahoma, sans-serif;
+    
     
     background-color: darkslategray;
     border-radius: 0.6rem;
