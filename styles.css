@@ -1,0 +1,114 @@
+html{
+    background-color: #f5eeee;
+    font-size: 16px;
+}
+
+
+
+h1{
+    color: #ff5566;
+    background-color:darkslategray;
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+    font-family: "Impact", sans-serif;
+    margin: 0;
+    
+}
+
+nav{
+    background-color: darkslategray;
+    position: sticky;
+    top: 0rem;
+    
+}
+
+nav a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Verdana";
+    font-weight: bold;
+    padding: 1rem;
+    
+    
+    background-color: darkslategray;
+    border-radius: 0.6rem;
+    
+}
+
+nav a.current{
+    top: 0.8rem;
+}
+
+nav a:hover{
+    background-color: #223243;
+}
+
+main{
+    margin: 2rem auto;
+    max-width: 80rem;
+    width: 85%;
+    padding: 0.5rem;
+
+    display: flex;
+    min-height: 40rem;
+    
+    
+    
+}
+
+article{
+    width: 50%;
+    padding: 1rem;
+}
+
+h2{
+    
+    font-size: 2rem;
+    font-family: "Georgia", serif; 
+}
+
+p{
+    font-size: 1.5rem;
+    font-family: "Georgia", serif;
+    text-align: justify;
+
+}
+
+img{
+    width: 80%;
+    margin: 0 10%;
+}
+
+footer{
+    background-color: darkslategray;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px){
+    main{
+        display: block;
+    }
+
+    article{
+        width: 100%;
+    }
+    
+
+}
+
+@media screen and (max-width: 680px){
+   nav a{
+       font-size: 1.3rem;
+   }
+
+   h2{
+       font-size: 1.5rem;
+   }
+    
+
+}
